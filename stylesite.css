@@ -102,9 +102,7 @@ img {
     height: 3.13vw;
     position: absolute;
     z-index: 10;
-    left: 70vw;
-    top: 21.5vw;
-    transform: rotate(-15deg);
+    transform: translateX(70vw) translateY(21.5vw) rotate(-15deg);
 }
 
 #orm2 {
@@ -182,7 +180,7 @@ img {
     background-image: url(produktion/Hjerte.svg);
     background-size: 100%;
     width: 4vw;
-    height: 3.14vw;
+    height: 3.11vw;
     position: absolute;
     z-index: 10;
     right: 2vw;
@@ -193,7 +191,7 @@ img {
     background-image: url(produktion/Hjerte.svg);
     background-size: 100%;
     width: 4vw;
-    height: 3.14vw;
+    height: 3.11vw;
     position: absolute;
     z-index: 10;
     right: 6.5vw;
@@ -204,7 +202,7 @@ img {
     background-image: url(produktion/Hjerte.svg);
     background-size: 100%;
     width: 4vw;
-    height: 3.14vw;
+    height: 3.11vw;
     position: absolute;
     z-index: 10;
     right: 11vw;
@@ -320,4 +318,92 @@ img {
     z-index: 10;
     right: 83.9vw;
     top: 31vw;
+}
+
+/*CLASSES*/
+
+.hide {
+    display: none;
+}
+
+.move {
+    animation-name: move;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    transform-origin:
+
+}
+
+.fade_in {
+    animation-name: fade_in;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+.fade_out {
+    animation-name: fade_out;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+.roter {
+    animation-name: roter;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+/*KEYFRAMES*/
+
+@keyframes fade_in {
+    0% {
+        opacity: 0;
+
+    }
+
+    100% {
+        opacity: 1;
+
+    }
+
+}
+
+@keyframes fade_out {
+    0% {
+        opacity: 1;
+
+    }
+
+    100% {
+        opacity: 0;
+
+    }
+
+}
+
+@keyframes move {
+    from {
+        transform: translateX(70vw) translateY(21.5vw) rotate(-15deg);
+
+    }
+
+    to {
+        transform: translateX(54vw) translateY(25vw) rotate(-15deg);
+
+    }
+}
+
+@keyframes roter {
+    from {
+        transform: rotate(0deg);
+
+    }
+
+    to {
+        transform: rotate(360deg);
+
+    }
 }
