@@ -1,0 +1,323 @@
+img {
+    width: 100%;
+}
+
+#screen {
+    position: relative;
+}
+
+#forgrund {
+    background-image: url(grafik/Forgrund.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 100vw;
+    width: 100vw;
+    position: absolute;
+    z-index: -1;
+}
+
+#mellemgrund {
+    background-image: url(grafik/Mellemgrund.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 100vw;
+    height: 100vw;
+    position: absolute;
+    z-index: -2;
+}
+
+#baggrund {
+    background-image: url(grafik/Baggrund.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 100vw;
+    height: 100vw;
+    position: absolute;
+    z-index: -3;
+}
+
+#start {
+    background-image: url(produktion/Titelskaerm.svg);
+    display: none;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 100vw;
+    width: 100vw;
+    position: absolute;
+    z-index: -1;
+}
+
+#settings {
+    background-image: url(produktion/Settings.svg);
+    display: none;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 100vw;
+    width: 100vw;
+    position: absolute;
+    z-index: -1;
+}
+
+#gameover {
+    background-image: url(produktion/You%20lose.svg);
+    display: none;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 100vw;
+    width: 100vw;
+    position: absolute;
+    z-index: -1;
+}
+
+#levelcomplete {
+    background-image: url(produktion/You%20win.svg);
+    display: none;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 100vw;
+    width: 100vw;
+    position: absolute;
+    z-index: -1;
+}
+
+
+
+
+
+#aeble {
+    background-image: url(produktion/rigtigt%20eable.svg);
+    background-size: 100%;
+    width: 7.3vw;
+    height: 10vw;
+    position: absolute;
+    z-index: 10;
+    left: 47vw;
+    top: 24vw;
+}
+
+#orm1 {
+    background-image: url(produktion/Orm%20nede.svg);
+    background-size: 100%;
+    width: 12vw;
+    height: 3.13vw;
+    position: absolute;
+    z-index: 10;
+    left: 70vw;
+    top: 21.5vw;
+    transform: rotate(-15deg);
+}
+
+#orm2 {
+    background-image: url(produktion/Orm%20nede.svg);
+    background-size: 100%;
+    width: 12vw;
+    height: 3.13vw;
+    position: absolute;
+    z-index: 10;
+    left: 70vw;
+    top: 2.9vw;
+    transform: rotate(-35deg);
+}
+
+#orm3 {
+    background-image: url(produktion/Orm%20nede.svg);
+    background-size: 100%;
+    width: 12vw;
+    height: 3.13vw;
+    position: absolute;
+    z-index: 10;
+    left: 19vw;
+    top: 43.5vw;
+    transform: scaleX(-1) rotate(25deg);
+}
+
+#orm4 {
+    background-image: url(produktion/Orm%20oppe.svg);
+    background-size: 100%;
+    width: 12vw;
+    height: 4.6vw;
+    position: absolute;
+    z-index: 10;
+    left: 69vw;
+    top: 42vw;
+    transform: rotate(25deg);
+}
+
+#orm5 {
+    background-image: url(produktion/Orm%20oppe.svg);
+    background-size: 100%;
+    width: 12vw;
+    height: 4.6vw;
+    position: absolute;
+    z-index: 10;
+    left: 19vw;
+    top: 21vw;
+    transform: scaleX(-1) rotate(-13deg);
+}
+
+#orm6 {
+    background-image: url(produktion/Orm%20oppe.svg);
+    background-size: 100%;
+    width: 12vw;
+    height: 4.6vw;
+    position: absolute;
+    z-index: 10;
+    left: 19vw;
+    top: 1.5vw;
+    transform: scaleX(-1) rotate(-35deg);
+}
+
+#settingsknap {
+    background-image: url(produktion/Indstillinger%20knap.svg);
+    background-size: 100%;
+    width: 12vw;
+    height: 12vw;
+    position: absolute;
+    z-index: 10;
+    left: 3vw;
+    top: 42.5vw;
+}
+
+#energy2 {
+    background-image: url(produktion/Hjerte.svg);
+    background-size: 100%;
+    width: 4vw;
+    height: 3.14vw;
+    position: absolute;
+    z-index: 10;
+    right: 2vw;
+    top: 42.5vw;
+}
+
+#energy {
+    background-image: url(produktion/Hjerte.svg);
+    background-size: 100%;
+    width: 4vw;
+    height: 3.14vw;
+    position: absolute;
+    z-index: 10;
+    right: 6.5vw;
+    top: 42.5vw;
+}
+
+#energy1 {
+    background-image: url(produktion/Hjerte.svg);
+    background-size: 100%;
+    width: 4vw;
+    height: 3.14vw;
+    position: absolute;
+    z-index: 10;
+    right: 11vw;
+    top: 42.5vw;
+}
+
+#timeglas {
+    background-image: url(produktion/Timeglas.svg);
+    background-size: 100%;
+    width: 2.2vw;
+    height: 4.15vw;
+    position: absolute;
+    z-index: 10;
+    right: 12vw;
+    top: 46.5vw;
+}
+
+#time {
+    background-image: url(produktion/Tid.svg);
+    background-size: 100%;
+    width: 5.1vw;
+    height: 2.7vw;
+    position: absolute;
+    z-index: 10;
+    right: 2.2vw;
+    top: 47.8vw;
+}
+
+#tegn {
+    background-image: url(produktion/=%20tegn.svg);
+    background-size: 100%;
+    width: 2.4vw;
+    height: 1.22vw;
+    position: absolute;
+    z-index: 10;
+    right: 8vw;
+    top: 48.5vw;
+}
+
+#tegn1 {
+    background-image: url(produktion/=%20tegn.svg);
+    background-size: 100%;
+    width: 2.4vw;
+    height: 1.22vw;
+    position: absolute;
+    z-index: 10;
+    right: 8vw;
+    top: 52.5vw;
+
+}
+
+#point {
+    background-image: url(produktion/Point%20billede.svg);
+    background-size: 100%;
+    width: 4.1vw;
+    height: 2.4vw;
+    position: absolute;
+    z-index: 10;
+    right: 11.9vw;
+    top: 51.9vw;
+}
+
+#points {
+    background-image: url(produktion/Point.svg);
+    background-size: 100%;
+    width: 5.1vw;
+    height: 2.7vw;
+    position: absolute;
+    z-index: 10;
+    right: 2.2vw;
+    top: 51.8vw;
+}
+
+#sol {
+    background-image: url(produktion/Sol.svg);
+    background-size: 100%;
+    width: 5.6vw;
+    height: 5.8vw;
+    position: absolute;
+    z-index: 10;
+    right: 7.9vw;
+    top: 30vw;
+}
+
+#sol1 {
+    background-image: url(produktion/Sol.svg);
+    background-size: 100%;
+    width: 5.6vw;
+    height: 5.8vw;
+    position: absolute;
+    z-index: 10;
+    right: 75vw;
+    top: 13vw;
+}
+
+#draabe {
+    background-image: url(produktion/Dr%C3%A5be.svg);
+    background-size: 100%;
+    width: 3.8vw;
+    height: 5.4vw;
+    position: absolute;
+    z-index: 10;
+    right: 17.9vw;
+    top: 14vw;
+}
+
+#draabe1 {
+    background-image: url(produktion/Dr%C3%A5be.svg);
+    background-size: 100%;
+    width: 3.8vw;
+    height: 5.4vw;
+    position: absolute;
+    z-index: 10;
+    right: 83.9vw;
+    top: 31vw;
+}
