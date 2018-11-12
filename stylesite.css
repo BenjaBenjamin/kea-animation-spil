@@ -41,22 +41,71 @@ body {
     z-index: -3;
 }
 
-#score {
+#time {
     background-size: 100%;
     width: 5.1vw;
     height: 2.7vw;
     position: absolute;
     z-index: 30;
     right: 2.2vw;
-    top: 51.8vw;
+    top: 46.5vw;
     color: white;
 
-
-
-    font-size: 1.2rem;
+    font-size: 30px;
     font-weight: 600;
+}
+
+#spiligen {
+    background-image: url(produktion/Tilbage%20knap.svg);
+    background-size: 100%;
+    width: 8vw;
+    height: 8vw;
+    transform: translateX(33vw) translateY(33vw);
+    z-index: 30000;
 
 
+}
+
+#score {
+    background-size: 100%;
+    width: 6.6vw;
+    height: 2.7vw;
+    position: absolute;
+    z-index: 300;
+    right: 1.2vw;
+    top: 50.5vw;
+    color: white;
+
+    font-size: 30px;
+    font-weight: 600;
+}
+
+#score1 {
+    background-size: 100%;
+    width: 27.1vw;
+    height: 6.7vw;
+    position: absolute;
+    z-index: 282;
+    right: 39.5vw;
+    top: 26.8vw;
+    color: white;
+
+    font-size: 40px;
+    font-weight: 600;
+}
+
+#score2 {
+    background-size: 100%;
+    width: 27.1vw;
+    height: 6.7vw;
+    position: absolute;
+    z-index: 282;
+    right: 39.5vw;
+    top: 26.8vw;
+    color: white;
+
+    font-size: 40px;
+    font-weight: 600;
 }
 
 #start {
@@ -86,7 +135,7 @@ body {
     height: 100vw;
     width: 100vw;
     position: absolute;
-    z-index: -1;
+    z-index: 10;
 }
 
 #levelcomplete {
@@ -96,7 +145,7 @@ body {
     height: 100vw;
     width: 100vw;
     position: absolute;
-    z-index: -1;
+    z-index: 1;
 }
 
 
@@ -123,7 +172,77 @@ body {
     transform: translateX(110vw) translateY(13.5vw) rotate(-15deg);
 }
 
+#orm1_1 {
+    background-image: url(produktion/Orm%20nede.svg);
+    background-size: 100%;
+    width: 12vw;
+    height: 3.13vw;
+    position: absolute;
+    z-index: 200;
+    transform: translateX(110vw) translateY(13.5vw) rotate(-15deg);
+}
+
+#orm1_2 {
+    background-image: url(produktion/Orm%20nede.svg);
+    background-size: 100%;
+    width: 12vw;
+    height: 3.13vw;
+    position: absolute;
+    z-index: 200;
+    transform: translateX(110vw) translateY(13.5vw) rotate(-15deg);
+}
+
+#orm1_4 {
+    background-image: url(produktion/Orm%20nede.svg);
+    background-size: 100%;
+    width: 12vw;
+    height: 3.13vw;
+    position: absolute;
+    z-index: 200;
+    transform: translateX(110vw) translateY(13.5vw) rotate(-15deg);
+}
+
 #orm2 {
+    background-image: url(produktion/Orm%20nede.svg);
+    background-size: 100%;
+    width: 12vw;
+    height: 3.13vw;
+    position: absolute;
+    z-index: 200;
+    transform: translateX(86vw) translateY(-8vw)rotate(-35deg);
+}
+
+#orm2_1 {
+    background-image: url(produktion/Orm%20nede.svg);
+    background-size: 100%;
+    width: 12vw;
+    height: 3.13vw;
+    position: absolute;
+    z-index: 200;
+    transform: translateX(86vw) translateY(-8vw)rotate(-35deg);
+}
+
+#orm2_2 {
+    background-image: url(produktion/Orm%20nede.svg);
+    background-size: 100%;
+    width: 12vw;
+    height: 3.13vw;
+    position: absolute;
+    z-index: 200;
+    transform: translateX(86vw) translateY(-8vw)rotate(-35deg);
+}
+
+#orm2_3 {
+    background-image: url(produktion/Orm%20nede.svg);
+    background-size: 100%;
+    width: 12vw;
+    height: 3.13vw;
+    position: absolute;
+    z-index: 200;
+    transform: translateX(86vw) translateY(-8vw)rotate(-35deg);
+}
+
+#orm2_4 {
     background-image: url(produktion/Orm%20nede.svg);
     background-size: 100%;
     width: 12vw;
@@ -143,7 +262,87 @@ body {
     transform: translateX(-10vw) translateY(59.5vw) rotate(-30deg) scaleX(-1);
 }
 
+#orm3_1 {
+    background-image: url(produktion/Orm%20oppe.svg);
+    background-size: 100%;
+    width: 12vw;
+    height: 4.64vw;
+    position: absolute;
+    z-index: 200;
+    transform: translateX(-10vw) translateY(59.5vw) rotate(-30deg) scaleX(-1);
+}
+
+#orm3_2 {
+    background-image: url(produktion/Orm%20oppe.svg);
+    background-size: 100%;
+    width: 12vw;
+    height: 4.64vw;
+    position: absolute;
+    z-index: 200;
+    transform: translateX(-10vw) translateY(59.5vw) rotate(-30deg) scaleX(-1);
+}
+
+#orm3_3 {
+    background-image: url(produktion/Orm%20oppe.svg);
+    background-size: 100%;
+    width: 12vw;
+    height: 4.64vw;
+    position: absolute;
+    z-index: 200;
+    transform: translateX(-10vw) translateY(59.5vw) rotate(-30deg) scaleX(-1);
+}
+
+#orm3_4 {
+    background-image: url(produktion/Orm%20oppe.svg);
+    background-size: 100%;
+    width: 12vw;
+    height: 4.64vw;
+    position: absolute;
+    z-index: 200;
+    transform: translateX(-10vw) translateY(59.5vw) rotate(-30deg) scaleX(-1);
+}
+
 #orm4 {
+    background-image: url(produktion/Orm%20oppe.svg);
+    background-size: 100%;
+    width: 12vw;
+    height: 4.6vw;
+    position: absolute;
+    z-index: 200;
+    transform: translateX(94vw) translateY(59vw) rotate(25deg);
+}
+
+#orm4_1 {
+    background-image: url(produktion/Orm%20oppe.svg);
+    background-size: 100%;
+    width: 12vw;
+    height: 4.6vw;
+    position: absolute;
+    z-index: 200;
+    transform: translateX(94vw) translateY(59vw) rotate(25deg);
+}
+
+#orm4_2 {
+    background-image: url(produktion/Orm%20oppe.svg);
+    background-size: 100%;
+    width: 12vw;
+    height: 4.6vw;
+    position: absolute;
+    z-index: 200;
+    transform: translateX(94vw) translateY(59vw) rotate(25deg);
+}
+
+#orm4_3 {
+    background-image: url(produktion/Orm%20oppe.svg);
+    background-size: 100%;
+    width: 12vw;
+    height: 4.6vw;
+    position: absolute;
+    z-index: 200;
+    transform: translateX(94vw) translateY(59vw) rotate(25deg);
+}
+
+#orm4_4 {
     background-image: url(produktion/Orm%20oppe.svg);
     background-size: 100%;
     width: 12vw;
@@ -163,7 +362,87 @@ body {
     transform: translateX(-14vw) translateY(16vw) scaleX(-1) rotate(-13deg);
 }
 
+#orm5_1 {
+    background-image: url(produktion/Orm%20oppe.svg);
+    background-size: 100%;
+    width: 12vw;
+    height: 4.6vw;
+    position: absolute;
+    z-index: 200;
+    transform: translateX(-14vw) translateY(16vw) scaleX(-1) rotate(-13deg);
+}
+
+#orm5_2 {
+    background-image: url(produktion/Orm%20oppe.svg);
+    background-size: 100%;
+    width: 12vw;
+    height: 4.6vw;
+    position: absolute;
+    z-index: 200;
+    transform: translateX(-14vw) translateY(16vw) scaleX(-1) rotate(-13deg);
+}
+
+#orm5_3 {
+    background-image: url(produktion/Orm%20oppe.svg);
+    background-size: 100%;
+    width: 12vw;
+    height: 4.6vw;
+    position: absolute;
+    z-index: 200;
+    transform: translateX(-14vw) translateY(16vw) scaleX(-1) rotate(-13deg);
+}
+
+#orm5_4 {
+    background-image: url(produktion/Orm%20oppe.svg);
+    background-size: 100%;
+    width: 12vw;
+    height: 4.6vw;
+    position: absolute;
+    z-index: 200;
+    transform: translateX(-14vw) translateY(16vw) scaleX(-1) rotate(-13deg);
+}
+
 #orm6 {
+    background-image: url(produktion/Orm%20oppe.svg);
+    background-size: 100%;
+    width: 12vw;
+    height: 4.6vw;
+    position: absolute;
+    z-index: 210;
+    transform: translateX(8vw)translateY(-6vw) scaleX(-1) rotate(-35deg);
+}
+
+#orm6_1 {
+    background-image: url(produktion/Orm%20oppe.svg);
+    background-size: 100%;
+    width: 12vw;
+    height: 4.6vw;
+    position: absolute;
+    z-index: 210;
+    transform: translateX(8vw)translateY(-6vw) scaleX(-1) rotate(-35deg);
+}
+
+#orm6_2 {
+    background-image: url(produktion/Orm%20oppe.svg);
+    background-size: 100%;
+    width: 12vw;
+    height: 4.6vw;
+    position: absolute;
+    z-index: 210;
+    transform: translateX(8vw)translateY(-6vw) scaleX(-1) rotate(-35deg);
+}
+
+#orm6_3 {
+    background-image: url(produktion/Orm%20oppe.svg);
+    background-size: 100%;
+    width: 12vw;
+    height: 4.6vw;
+    position: absolute;
+    z-index: 210;
+    transform: translateX(8vw)translateY(-6vw) scaleX(-1) rotate(-35deg);
+}
+
+#orm6_4 {
     background-image: url(produktion/Orm%20oppe.svg);
     background-size: 100%;
     width: 12vw;
@@ -228,37 +507,22 @@ body {
     top: 30vw;
 }
 
-#energy2 {
-    background-image: url(produktion/Hjerte.svg);
-    background-size: 100%;
-    width: 4vw;
-    height: 3.11vw;
-    position: absolute;
-    z-index: 30;
-    right: 2vw;
-    top: 42.5vw;
-}
-
 #energy {
-    background-image: url(produktion/Hjerte.svg);
-    background-size: 100%;
-    width: 4vw;
-    height: 3.11vw;
     position: absolute;
+    top: 43vw;
+    left: 84vw;
     z-index: 30;
-    right: 6.5vw;
-    top: 42.5vw;
+    display: flex;
+    justify-content: flex-start;
+    */
 }
 
-#energy1 {
+.heart {
+    width: 4.2vw;
+    height: 3.2vw;
     background-image: url(produktion/Hjerte.svg);
     background-size: 100%;
-    width: 4vw;
-    height: 3.11vw;
-    position: absolute;
-    z-index: 30;
-    right: 11vw;
-    top: 42.5vw;
+    margin-right: 0.9vw;
 }
 
 #timeglas {
@@ -272,16 +536,6 @@ body {
     top: 46.5vw;
 }
 
-#time {
-    background-image: url(produktion/Tid.svg);
-    background-size: 100%;
-    width: 5.1vw;
-    height: 2.7vw;
-    position: absolute;
-    z-index: 30;
-    right: 2.2vw;
-    top: 47.8vw;
-}
 
 #tegn {
     background-image: url(produktion/=%20tegn.svg);
@@ -319,48 +573,72 @@ body {
 
 
 
-#sol {
+.sol {
     background-image: url(produktion/Sol.svg);
     background-size: 100%;
-    width: 5.6vw;
-    height: 5.8vw;
-    position: absolute;
-    z-index: 200;
-    right: 7.9vw;
-    top: 30vw;
 }
 
-#sol1 {
-    background-image: url(produktion/Sol.svg);
+.draabe {
+    background-image: url(produktion/Dr%C3%A5be.svg);
     background-size: 100%;
-    width: 5.6vw;
-    height: 5.8vw;
+}
+
+.spawn {
     position: absolute;
-    z-index: 200;
-    right: 75vw;
+}
+
+#spawn4 {
+    width: 4vw;
+    height: 5.7vw;
+    z-index: 400;
+    position: absolute;
     top: 13vw;
+    left: 20vw;
 }
 
-#draabe {
-    background-image: url(produktion/Dr%C3%A5be.svg);
-    background-size: 100%;
-    width: 3.8vw;
-    height: 5.48vw;
+#spawn5 {
+    width: 4vw;
+    height: 5.7vw;
+    z-index: 400;
     position: absolute;
-    z-index: 200;
-    right: 17.9vw;
-    top: 14vw;
+    top: 13vw;
+    left: 76vw;
 }
 
-#draabe1 {
-    background-image: url(produktion/Dr%C3%A5be.svg);
-    background-size: 100%;
-    width: 3.8vw;
-    height: 5.48vw;
+#spawn6 {
+    width: 4vw;
+    height: 5.7vw;
+    z-index: 400;
     position: absolute;
-    z-index: 200;
-    right: 83.9vw;
-    top: 31vw;
+    top: 39vw;
+    left: 76vw;
+}
+
+#spawn1 {
+    width: 5vw;
+    height: 5.2vw;
+    z-index: 400;
+    position: absolute;
+    top: 39vw;
+    left: 19vw;
+}
+
+#spawn2 {
+    width: 5vw;
+    height: 5.2vw;
+    z-index: 400;
+    position: absolute;
+    top: 48vw;
+    left: 47.9vw;
+}
+
+#spawn3 {
+    width: 5vw;
+    height: 5.2vw;
+    z-index: 400;
+    position: absolute;
+    top: 1vw;
+    left: 47vw;
 }
 
 /*CLASSES*/
@@ -369,9 +647,45 @@ body {
     display: none;
 }
 
+.blur {
+    opacity: 0.5;
+}
+
 .move {
     animation-name: move;
-    animation-delay: 1s;
+    animation-delay: 2s;
+    animation-duration: 10s;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+}
+
+.move_1 {
+    animation-name: move;
+    animation-delay: 8s;
+    animation-duration: 10s;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+}
+
+.move_2 {
+    animation-name: move;
+    animation-delay: 17s;
+    animation-duration: 10s;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+}
+
+.move_3 {
+    animation-name: move;
+    animation-delay: 28s;
+    animation-duration: 10s;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+}
+
+.move_4 {
+    animation-name: move;
+    animation-delay: 33s;
     animation-duration: 10s;
     animation-iteration-count: 1;
     animation-timing-function: linear;
@@ -379,7 +693,39 @@ body {
 
 .move_orm2 {
     animation-name: move_orm2;
-    animation-delay: 1s;
+    animation-delay: 6s;
+    animation-duration: 10s;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+}
+
+.move_orm2_1 {
+    animation-name: move_orm2;
+    animation-delay: 14s;
+    animation-duration: 10s;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+}
+
+.move_orm2_2 {
+    animation-name: move_orm2;
+    animation-delay: 20s;
+    animation-duration: 10s;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+}
+
+.move_orm2_3 {
+    animation-name: move_orm2;
+    animation-delay: 24s;
+    animation-duration: 10s;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+}
+
+.move_orm2_4 {
+    animation-name: move_orm2;
+    animation-delay: 29s;
     animation-duration: 10s;
     animation-iteration-count: 1;
     animation-timing-function: linear;
@@ -387,7 +733,39 @@ body {
 
 .move_orm3 {
     animation-name: move_orm3;
-    animation-delay: 1s;
+    animation-delay: 3s;
+    animation-duration: 10s;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+}
+
+.move_orm3_1 {
+    animation-name: move_orm3;
+    animation-delay: 8s;
+    animation-duration: 10s;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+}
+
+.move_orm3_2 {
+    animation-name: move_orm3;
+    animation-delay: 20s;
+    animation-duration: 10s;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+}
+
+.move_orm3_3 {
+    animation-name: move_orm3;
+    animation-delay: 35s;
+    animation-duration: 10s;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+}
+
+.move_orm3_4 {
+    animation-name: move_orm3;
+    animation-delay: 45s;
     animation-duration: 10s;
     animation-iteration-count: 1;
     animation-timing-function: linear;
@@ -395,7 +773,39 @@ body {
 
 .move_orm4 {
     animation-name: move_orm4;
-    animation-delay: 1s;
+    animation-delay: 4s;
+    animation-duration: 10s;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+}
+
+.move_orm4_1 {
+    animation-name: move_orm4;
+    animation-delay: 10s;
+    animation-duration: 10s;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+}
+
+.move_orm4_2 {
+    animation-name: move_orm4;
+    animation-delay: 19s;
+    animation-duration: 10s;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+}
+
+.move_orm4_3 {
+    animation-name: move_orm4;
+    animation-delay: 27s;
+    animation-duration: 10s;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+}
+
+.move_orm4_4 {
+    animation-name: move_orm4;
+    animation-delay: 34s;
     animation-duration: 10s;
     animation-iteration-count: 1;
     animation-timing-function: linear;
@@ -409,9 +819,73 @@ body {
     animation-timing-function: linear;
 }
 
+.move_orm5_1 {
+    animation-name: move_orm5;
+    animation-delay: 10s;
+    animation-duration: 10s;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+}
+
+.move_orm5_2 {
+    animation-name: move_orm5;
+    animation-delay: 15s;
+    animation-duration: 10s;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+}
+
+.move_orm5_3 {
+    animation-name: move_orm5;
+    animation-delay: 20s;
+    animation-duration: 10s;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+}
+
+.move_orm5_4 {
+    animation-name: move_orm5;
+    animation-delay: 28s;
+    animation-duration: 10s;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+}
+
 .move_orm6 {
     animation-name: move_orm6;
-    animation-delay: 1s;
+    animation-delay: 9s;
+    animation-duration: 10s;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+}
+
+.move_orm6_1 {
+    animation-name: move_orm6;
+    animation-delay: 15s;
+    animation-duration: 10s;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+}
+
+.move_orm6_2 {
+    animation-name: move_orm6;
+    animation-delay: 24s;
+    animation-duration: 10s;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+}
+
+.move_orm6_3 {
+    animation-name: move_orm6;
+    animation-delay: 34s;
+    animation-duration: 10s;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+}
+
+.move_orm6_4 {
+    animation-name: move_orm6;
+    animation-delay: 40s;
     animation-duration: 10s;
     animation-iteration-count: 1;
     animation-timing-function: linear;
